@@ -1,0 +1,17 @@
+<% login_url = "https://mybookspy.com/login" %>
+
+window.onAmazonLoginReady = function() {
+    amazon.Login.setClientId('amzn1.application-oa2-client.468dbd81bdbe40ed90d605aec566636b');
+};
+
+$.getScript("https://api-cdn.amazon.com/sdk/login1.js");
+
+$(document).ready(function(){
+    $("#LoginWithAmazon").click(login);
+
+    function login() {
+        var options = { scope : 'profile' };
+        window.amazon.Login.authorize(options, '<%= login_url %>');
+    }
+});
+

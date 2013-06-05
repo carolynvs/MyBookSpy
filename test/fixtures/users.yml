@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  amazon_user_id: 
+  email: MyString
+
+two:
+  amazon_user_id: 
+  email: MyString
