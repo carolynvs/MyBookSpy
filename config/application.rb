@@ -9,7 +9,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-module Mybookspy
+module MyBookSpy
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -58,5 +58,11 @@ module Mybookspy
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Load secret configuration from app.yml
+    app_config = YAML.load_file('config/app.yml')[Rails.env] rescue {}
+    config.aws_tag = app_config['aws_tag']
+    config.aws_key = app_config['aws_key']
+    config.aws_secret = app_config['aws_secret']
   end
 end

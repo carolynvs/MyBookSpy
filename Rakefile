@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Mybookspy::Application.load_tasks
+MyBookSpy::Application.load_tasks

@@ -1,0 +1,10 @@
+development: &defaults
+  aws_tag: ''
+  aws_key: ''
+  aws_secret: ''
+
+production:
+  <<: *defaults
+
+test:
+  <<: *defaults

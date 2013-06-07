@@ -1,7 +1,7 @@
-Mybookspy::Application.routes.draw do
+MyBookSpy::Application.routes.draw do
   resources :users
 
-
+  match 'amazon/search/:keyword' => 'amazon#search'
   match 'login' => 'home#login'
   match 'logout' => 'home#logout'
 
