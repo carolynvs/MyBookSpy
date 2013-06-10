@@ -2,7 +2,7 @@
 <p>Receive alerts for when your favorite authors publish new books</p>
 
 <% if @current_user.nil? %>
-<a href="#" id="LoginWithAmazon">
+<a href="#" id="LoginWithAmazon" class="login">
     <img border="0" alt="Login with Amazon"
          src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png"
          width="156" height="32" />
@@ -10,3 +10,11 @@
 <% else %>
     <span class="username"><%= link_to @current_user.email, @current_user %></span>
 <% end %>
+
+<div class="search">
+    <%= form_tag('/amazon/search', :method => 'get') do %>
+        <%= label_tag(:author, 'Search for an author:') %>
+        <%= text_field_tag(:author) %>
+        <%= submit_tag('Search', name: nil) %>
+    <% end %>
+</div>

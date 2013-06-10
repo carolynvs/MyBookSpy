@@ -1,15 +1,15 @@
 class AmazonService
   def initialize(aws_tag, aws_key, aws_secret)
 
-    Rails.logger.info("Initializing AmazonService: \ntag: #{aws_tag} \nkey:#{aws_key} \nsecret:#{aws_secret}")
+    #Rails.logger.info("Initializing AmazonService: \ntag: #{aws_tag} \nkey:#{aws_key} \nsecret:#{aws_secret}")
 
     @aws_tag = aws_tag
     @aws_key = aws_key
     @aws_secret = aws_secret
   end
 
-  def search(keyword)
-    Rails.logger.info("Searching Amazon for: #{keyword}")
+  def search_for_books_by(author)
+    #Rails.logger.info("Searching Amazon for the author: #{author}")
     request = Vacuum.new
 
     request.configure(tag: @aws_tag, key: @aws_key, secret: @aws_secret)
@@ -17,7 +17,7 @@ class AmazonService
     params = {
       'Operation' => 'ItemSearch',
       'SearchIndex' => 'Books',
-      'Keywords' => keyword
+      'Author' => author
     }
 
     response = request.get(query: params)
