@@ -1,12 +1,14 @@
 <h1>Search for: <%= params[:author] %></h1>
 
-<% if !@author.nil? %>
-<h2><%= @author.name %></h2>
-<ul>
-<% @author.books.each do |book| %>
-    <li><%= link_to book.title, book.url %></li>
-<% end %>
-</ul>
+<% if !@authors.nil? %>
+    <% @authors.each do |author| %>
+        <h2><%= author.name %></h2>
+        <ul>
+        <% author.books.each do |book| %>
+            <li><%= link_to book.title, book.url %></li>
+        <% end %>
+        </ul>
+    <% end %>
 <% else %>
     Oops, your search did not return any results.
 <% end %>

@@ -28,6 +28,8 @@ class AmazonService
     response = request.get(query: params)
     puts response.body
     books = parse_search_result(response.body)
+
+    # exclude books which don't appear to be authored by the queried author
     books = books.select { |book| !book.authors.nil? && book.authors.any? { |a| a.downcase.include?(author)}}
     return books
   end
@@ -39,18 +41,8 @@ class AmazonService
       return nil
     end
 
-    single_author_book = books.find { |book| book.authors.length == 1}
-    if !single_author_book.nil?
-      author_name = single_author_book.authors[0]
-    else
-        books.each do |book|
-          author_name = book.authors.find { |a| a.include?(author) }
-          if !author_name.nil?
-            break
-          end
-        end
-    end
-    return AmazonAuthor.new(author_name, books)
+    authors = AmazonAuthor.from_books(books)
+    return authors.select { |x| x.name.downcase.include?(author) }
   end
 
   private
@@ -96,8 +88,23 @@ end
 class AmazonAuthor
   attr_reader :name, :books
 
-  def initialize(name, books)
+  def initialize(name)
     @name = name
-    @books = books
+    @books = []
+  end
+
+  def self.from_books(books)
+    authors = {}
+
+    books.each do |book|
+      book.authors.each do |author|
+        if authors[author].nil?
+          authors[author] = AmazonAuthor.new(author)
+        end
+        authors[author].books << book
+      end
+    end
+
+    return authors.values
   end
 end
