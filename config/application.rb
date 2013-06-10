@@ -59,6 +59,11 @@ module MyBookSpy
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    # Do not generate stylesheets
+    config.generators do |g|
+      g.stylesheets false
+    end
+
     # Load secret configuration from app.yml
     app_config = YAML.load_file('config/app.yml')[Rails.env] rescue {}
     config.aws_tag = app_config['aws_tag']

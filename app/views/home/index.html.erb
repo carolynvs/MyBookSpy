@@ -1,18 +1,9 @@
-<h1>My Book Spy</h1>
-<p>Receive alerts for when your favorite authors publish new books</p>
-
-<% if user_signed_in? %>
-    <span class="username"><%= link_to current_user.email, current_user %></span>
-    <span class="logout"><%= link_to 'logout', :destroy_user_session, :method => :delete %></span>
-<% else %>
-    <span class="login"><%= link_to 'login', :new_user_session %></span>
-    <span class="register"><%= link_to 'register', :new_user_registration %></span>
-<% end %>
+<p>Follow your favorite authors and receive alerts when they publish new books</p>
 
 <div class="search">
     <%= form_tag('/amazon/search', :method => 'get') do %>
         <%= label_tag(:author, 'Search for an author:') %>
-        <%= text_field_tag(:author) %>
+        <%= text_field_tag(:author, nil, :placeholder => 'Author Name') %>
         <%= submit_tag('Search', name: nil) %>
     <% end %>
 </div>

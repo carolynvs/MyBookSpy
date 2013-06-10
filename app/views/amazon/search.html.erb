@@ -1,4 +1,4 @@
-<h1>Search for: <%= params[:author] %></h1>
+<h1 class="page-title">Search for: <%= params[:author] %></h1>
 
 <% if !@authors.nil? %>
     <% @authors.each do |author| %>
@@ -7,7 +7,7 @@
                 <%= link_to 'follow', author_alerts_path(author: author.name), method: :post %>
             </span>
         </h2>
-        <ul>
+        <ul class="books">
         <% author.books.each do |book| %>
             <li><%= link_to book.title, book.url %></li>
         <% end %>

@@ -1,0 +1,14 @@
+.logo a {
+  color: maroon;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.user_area {
+  float: right;
+}

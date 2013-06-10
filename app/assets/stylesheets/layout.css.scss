@@ -1,0 +1,16 @@
+html {
+  font-size: 14pt;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: underline;
+
+  &:hover {
+    color: darkolivegreen;
+  }
+}
+
+.page-title {
+  text-align: center;
+}

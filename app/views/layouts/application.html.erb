@@ -1,23 +1,42 @@
 <%
-    title = 'My Book Spy'
-    if content_for? :title
-      title += " - #{yield(:title)}"
-    end
+   title = 'My Book Spy'
+   if content_for? :title
+     title += " - #{yield(:title)}"
+   end
 %>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= title %></title>
-  <%= stylesheet_link_tag "application", :media => "all" %>
-  <%= csrf_meta_tags %>
+    <title><%= title %></title>
+    <%= stylesheet_link_tag 'application', :media => 'all' %>
+    <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+        <span class="logo">
+            <a href="/">My Book Spy</a>
+        </span>
+        <span class="user_area">
+            <% if user_signed_in? %>
+                <span class="username"><%= link_to current_user.email, current_user %></span>
+                <span class="logout"><%= link_to 'logout', :destroy_user_session, :method => :delete %></span>
+            <% else %>
+                <span class="login"><%= link_to 'login', :new_user_session %></span>
+                <span class="register"><%= link_to 'register', :new_user_registration %></span>
+            <% end %>
+        </span>
+</header>
 
-<p class="notice"><%= notice %></p>
+<% if !notice.nil? %>
+    <p class="notice"><%= notice %></p>
+<% end %>
+<% if !alert.nil? %>
 <p class="alert"><%= alert %></p>
+<% end %>
 
 <%= yield %>
 
-<%= render("layouts/javascript") %>
+<%= render('layouts/javascript') %>
 </body>
 </html>
