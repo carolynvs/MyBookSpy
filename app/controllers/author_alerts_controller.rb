@@ -16,7 +16,7 @@ class AuthorAlertsController < ApplicationController
   # POST /author_alerts.json
   def create
     author = Author.where(:name => params[:author]).first_or_create()
-    @author_alert = AuthorAlert.new(:author_id => author.id, :user_id => session[:user_id])
+    @author_alert = AuthorAlert.new(:author_id => author.id, :user_id => current_user.id)
 
     respond_to do |format|
       if @author_alert.save
