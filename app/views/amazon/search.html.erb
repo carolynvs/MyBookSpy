@@ -2,7 +2,11 @@
 
 <% if !@authors.nil? %>
     <% @authors.each do |author| %>
-        <h2><%= author.name %></h2>
+        <h2><%= author.name %>
+            <span class="follow">
+                <%= link_to 'follow', author_alerts_path(author: author.name), method: :post %>
+            </span>
+        </h2>
         <ul>
         <% author.books.each do |book| %>
             <li><%= link_to book.title, book.url %></li>

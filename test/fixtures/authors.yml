@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 
+  last_sync_date: 2013-06-10 12:20:31
+
+two:
+  name: 
+  last_sync_date: 2013-06-10 12:20:31

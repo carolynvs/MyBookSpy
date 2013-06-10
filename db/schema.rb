@@ -11,7 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130605211916) do
+ActiveRecord::Schema.define(:version => 20130610172031) do
+
+  create_table "author_alerts", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "author_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "authors", :force => true do |t|
+    t.string   "name"
+    t.datetime "last_sync_date"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.integer  "amazon_user_id"

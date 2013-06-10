@@ -1,7 +1,10 @@
 MyBookSpy::Application.routes.draw do
+  resources :authors
+  resources :author_alerts
   resources :users
 
   match 'amazon/search(/:author)' => 'amazon#search'
+
   match 'login' => 'home#login'
   match 'logout' => 'home#logout'
 

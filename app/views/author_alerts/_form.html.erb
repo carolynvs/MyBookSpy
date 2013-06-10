@@ -1,0 +1,25 @@
+<%= form_for(@author_alert) do |f| %>
+  <% if @author_alert.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@author_alert.errors.count, "error") %> prohibited this author_alert from being saved:</h2>
+
+      <ul>
+      <% @author_alert.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :author_id %><br />
+    <%= f.number_field :author_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

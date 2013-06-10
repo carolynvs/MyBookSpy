@@ -1,0 +1,15 @@
+<h1>Followed Authors</h1>
+
+<% if !params[:notice].nil? %>
+    <div class="notice"><%= params[:notice] %></div>
+<% end %>
+
+<ul>
+    <% @author_alerts.each do |author_alert| %>
+        <li>
+            <span class="author"><%= link_to author_alert.author.name, author_alert.author %></span>
+            <span class="delete"><%= link_to 'stop following', author_alert, method: :delete,
+                                             data: { confirm: 'Are you sure?' } %></span>
+        </li>
+    <% end %>
+</ul>
