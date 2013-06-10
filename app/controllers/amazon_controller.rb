@@ -3,7 +3,7 @@ class AmazonController < ApplicationController
     author = params[:author]
     if !author.to_s.empty?
       amazon = AmazonService.new(Rails.application.config.aws_tag, Rails.application.config.aws_key, Rails.application.config.aws_secret)
-      @results = amazon.search_for_books_by(author)
+      @author = amazon.search_for_author(author)
     end
   end
 end

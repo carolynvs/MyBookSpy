@@ -1,0 +1,607 @@
+<?xml version="1.0" ?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent" Value="Jeff/0.6.3 (Language=Ruby; Daytona)"></Header>
+        </HTTPHeaders>
+        <RequestId>a7e41bb9-962b-4409-9bf0-a5a5e155d7c0</RequestId>
+        <Arguments>
+            <Argument Name="Operation" Value="ItemSearch"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Author" Value="brin"></Argument>
+            <Argument Name="Signature" Value="T14bYioZisVY6zVs36ljmesumiR+6ZGMuzKfXLC5E5w="></Argument>
+            <Argument Name="AssociateTag" Value="sweetgeek-20"></Argument>
+            <Argument Name="Version" Value="2011-08-01"></Argument>
+            <Argument Name="SignatureMethod" Value="HmacSHA256"></Argument>
+            <Argument Name="AWSAccessKeyId" Value="1XCJZQH0D3BYHJMXGCG2"></Argument>
+            <Argument Name="Timestamp" Value="2013-06-10T15:35:29Z"></Argument>
+            <Argument Name="SearchIndex" Value="Books"></Argument>
+            <Argument Name="SignatureVersion" Value="2"></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0727890000000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemSearchRequest>
+                <Author>brin</Author>
+                <ResponseGroup>Small</ResponseGroup>
+                <SearchIndex>Books</SearchIndex>
+            </ItemSearchRequest>
+        </Request>
+        <TotalResults>693</TotalResults>
+        <TotalPages>70</TotalPages>
+        <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?camp=2025&amp;creative=386001&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3Dbrin%26url%3Dsearch-alias%253Dstripbooks&amp;linkCode=xm2&amp;tag=sweetgeek-20&amp;SubscriptionId=1XCJZQH0D3BYHJMXGCG2</MoreSearchResultsUrl>
+        <Item>
+            <ASIN>0060741872</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Alas-Babylon-Pat-Frank/dp/0060741872%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0060741872
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Alas-Babylon-Pat-Frank/dp/tech-data/0060741872%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0060741872%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0060741872%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0060741872%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0060741872%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0060741872%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0060741872%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0060741872
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>Pat Frank</Author>
+                <Creator Role="Foreword">David Brin</Creator>
+                <Manufacturer>Harper Perennial Modern Classics</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Alas, Babylon</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0765342626</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Existence-Kiln-Books-David-Brin/dp/0765342626%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0765342626
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Existence-Kiln-Books-David-Brin/dp/tech-data/0765342626%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0765342626%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0765342626%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0765342626%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0765342626%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0765342626%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0765342626%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0765342626
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Tor Science Fiction</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Existence (Kiln Books)</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0452296854</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/How-Exercise-When-Youre-Expecting/dp/0452296854%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0452296854
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/How-Exercise-When-Youre-Expecting/dp/tech-data/0452296854%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0452296854%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0452296854%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0452296854%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0452296854%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0452296854%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0452296854%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0452296854
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>Lindsay Brin</Author>
+                <Manufacturer>Plume</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>How to Exercise When You're Expecting: For the 9 Months of Pregnancy and the 5 Months It Takes to
+                    Get Your Best Body Back
+                </Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0553278746</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/The-Postman-David-Brin/dp/0553278746%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0553278746
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/The-Postman-David-Brin/dp/tech-data/0553278746%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0553278746%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0553278746%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0553278746%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0553278746%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0553278746%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0553278746%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553278746
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Bantam Spectra</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>The Postman</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>1937856836</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Dragonwriter-Tribute-Anne-McCaffrey-Pern/dp/1937856836%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1937856836
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Dragonwriter-Tribute-Anne-McCaffrey-Pern/dp/tech-data/1937856836%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D1937856836%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D1937856836%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D1937856836%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/1937856836%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/1937856836%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/1937856836%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1937856836
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Creator Role="Editor">Todd McCaffrey</Creator>
+                <Creator Role="Contributor">David Brin</Creator>
+                <Creator Role="Contributor">Lois McMaster Bujold</Creator>
+                <Creator Role="Contributor">Mercedes Lackey</Creator>
+                <Creator Role="Contributor">Elizabeth Moon</Creator>
+                <Creator Role="Contributor">Michael Whelan</Creator>
+                <Creator Role="Contributor">Chelsea Quinn Yarbro</Creator>
+                <Manufacturer>Smart Pop</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Dragonwriter: A Tribute to Anne McCaffrey and Pern</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0553269828</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Sundiver-The-Uplift-Saga-Book/dp/0553269828%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0553269828
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Sundiver-The-Uplift-Saga-Book/dp/tech-data/0553269828%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0553269828%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0553269828%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0553269828%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0553269828%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0553269828%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0553269828%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553269828
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Spectra</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Sundiver (The Uplift Saga, Book 1)</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0553279718</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/The-Uplift-War-Saga-Book/dp/0553279718%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0553279718
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/The-Uplift-War-Saga-Book/dp/tech-data/0553279718%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0553279718%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0553279718%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0553279718%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0553279718%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0553279718%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0553279718%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0553279718
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Spectra</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>The Uplift War (The Uplift Saga, Book 3)</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>055327418X</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Startide-Rising-Uplift-Saga-Book/dp/055327418X%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D055327418X
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Startide-Rising-Uplift-Saga-Book/dp/tech-data/055327418X%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D055327418X%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D055327418X%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D055327418X%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/055327418X%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/055327418X%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/055327418X%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D055327418X
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Spectra</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Startide Rising (The Uplift Saga, Book 2)</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0738201448</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/The-Transparent-Society-Technology-Between/dp/0738201448%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0738201448
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/The-Transparent-Society-Technology-Between/dp/tech-data/0738201448%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0738201448%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0738201448%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0738201448%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0738201448%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0738201448%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0738201448%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0738201448
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>Basic Books</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>The Transparent Society: Will Technology Force Us To Choose Between Privacy And Freedom?</Title>
+            </ItemAttributes>
+        </Item>
+        <Item>
+            <ASIN>0061056391</ASIN>
+            <DetailPageURL>
+                http://www.amazon.com/Foundations-Triumph-Second-Foundation-Trilogy/dp/0061056391%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0061056391
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>
+                        http://www.amazon.com/Foundations-Triumph-Second-Foundation-Trilogy/dp/tech-data/0061056391%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0061056391%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0061056391%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>
+                        http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0061056391%26SubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>
+                        http://www.amazon.com/gp/pdp/taf/0061056391%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>
+                        http://www.amazon.com/review/product/0061056391%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>
+                        http://www.amazon.com/gp/offer-listing/0061056391%3FSubscriptionId%3D1XCJZQH0D3BYHJMXGCG2%26tag%3Dsweetgeek-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0061056391
+                    </URL>
+                </ItemLink>
+            </ItemLinks>
+            <ItemAttributes>
+                <Author>David Brin</Author>
+                <Manufacturer>HarperTorch</Manufacturer>
+                <ProductGroup>Book</ProductGroup>
+                <Title>Foundation's Triumph
+                    (Second Foundation Trilogy)
+                </Title>
+            </ItemAttributes>
+        </Item>
+    </Items>
+</ItemSearchResponse>
