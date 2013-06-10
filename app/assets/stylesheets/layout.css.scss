@@ -2,6 +2,10 @@ html {
   font-size: 14pt;
 }
 
+body {
+  margin: 1em;
+}
+
 a {
   color: dodgerblue;
   text-decoration: underline;
@@ -11,6 +15,7 @@ a {
   }
 }
 
-.page-title {
+h1 {
   text-align: center;
+  font-size: 1.5em;
 }
