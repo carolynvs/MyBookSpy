@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'devise'
 gem 'vacuum'
 gem 'utf8_enforcer_workaround'
 

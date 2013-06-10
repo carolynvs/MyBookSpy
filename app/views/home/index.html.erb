@@ -1,14 +1,12 @@
 <h1>My Book Spy</h1>
 <p>Receive alerts for when your favorite authors publish new books</p>
 
-<% if @current_user.nil? %>
-<a href="#" id="LoginWithAmazon" class="login">
-    <img border="0" alt="Login with Amazon"
-         src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png"
-         width="156" height="32" />
-</a>
+<% if user_signed_in? %>
+    <span class="username"><%= link_to current_user.email, current_user %></span>
+    <span class="logout"><%= link_to 'logout', :destroy_user_session, :method => :delete %></span>
 <% else %>
-    <span class="username"><%= link_to @current_user.email, @current_user %></span>
+    <span class="login"><%= link_to 'login', :new_user_session %></span>
+    <span class="register"><%= link_to 'register', :new_user_registration %></span>
 <% end %>
 
 <div class="search">

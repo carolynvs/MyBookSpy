@@ -1,8 +1,10 @@
 class AuthorAlertsController < ApplicationController
+  before_filter :authenticate_user!
+
   # GET /author_alerts
   # GET /author_alerts.json
   def index
-    @author_alerts = AuthorAlert.all
+    @author_alerts = AuthorAlert.where(:user_id => current_user.id)
 
     respond_to do |format|
       format.html # index.html.erb

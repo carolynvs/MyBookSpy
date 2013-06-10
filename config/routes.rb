@@ -1,12 +1,11 @@
 MyBookSpy::Application.routes.draw do
+  devise_for :user, :path => '', :path_names => { :sign_in => "login", :sign_out => "logout", :sign_up => "register" }
+
   resources :authors
   resources :author_alerts
   resources :users
 
   match 'amazon/search(/:author)' => 'amazon#search'
-
-  match 'login' => 'home#login'
-  match 'logout' => 'home#logout'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
