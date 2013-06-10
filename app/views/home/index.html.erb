@@ -1,4 +1,4 @@
-<p>Follow your favorite authors and receive alerts when they publish new books</p>
+<p>Follow your favorite authors and receive alerts when they publish new books!</p>
 
 <div class="search">
     <%= form_tag('/amazon/search', :method => 'get') do %>
@@ -7,3 +7,11 @@
         <%= submit_tag('Search', name: nil) %>
     <% end %>
 </div>
+
+<% if user_signed_in? %>
+<div class="dashboard">
+    <p>You are following <%= @num_author_alerts %> <%= 'author'.pluralize(@num_author_alerts) %>. <%= link_to 'View
+    all followed authors',
+                                                                   author_alerts_url %></p>
+</div>
+<% end %>
