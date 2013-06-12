@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130610191726) do
+ActiveRecord::Schema.define(:version => 20130611130503) do
+
+  create_table "author_alert_histories", :force => true do |t|
+    t.integer  "author_alert_id"
+    t.integer  "book_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "author_alerts", :force => true do |t|
     t.integer  "user_id"
@@ -25,6 +32,15 @@ ActiveRecord::Schema.define(:version => 20130610191726) do
     t.datetime "last_sync_date"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "books", :force => true do |t|
+    t.string   "title"
+    t.integer  "author_id"
+    t.string   "url"
+    t.date     "publish_date"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
   create_table "users", :force => true do |t|

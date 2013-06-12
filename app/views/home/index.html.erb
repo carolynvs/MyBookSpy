@@ -10,8 +10,7 @@
 
 <% if user_signed_in? %>
 <div class="dashboard">
-    <p>You are following <%= @num_author_alerts %> <%= 'author'.pluralize(@num_author_alerts) %>. <%= link_to 'View
-    all followed authors',
-                                                                   author_alerts_url %></p>
+    <p>You are following <%= pluralize(@num_author_alerts,'author') %>.
+        <%= link_to 'View all followed authors', author_alerts_url %></p>
 </div>
 <% end %>

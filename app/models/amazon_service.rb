@@ -1,5 +1,6 @@
-require('vacuum')
-require('active_support')
+require 'date'
+require 'vacuum'
+require 'active_support'
 
 class AmazonService
   def initialize(aws_tag, aws_key, aws_secret)
@@ -11,7 +12,7 @@ class AmazonService
     @aws_secret = aws_secret
   end
 
-  def search_for_books_by(author)
+  def search_for_books_by(author, min_pubdate = nil)
     author = author.downcase
 
     #Rails.logger.info("Searching Amazon for the author: #{author}")
@@ -19,10 +20,14 @@ class AmazonService
 
     request.configure(tag: @aws_tag, key: @aws_key, secret: @aws_secret)
 
+    power_search = "author: \"#{author}\""
+    power_search += " and pubdate: after #{min_pubdate.strftime('%m-%Y')}" if !min_pubdate.nil?
+
+    # http://docs.aws.amazon.com/AWSECommerceService/latest/DG/PowerSearchSyntax.html
     params = {
       'Operation' => 'ItemSearch',
       'SearchIndex' => 'Books',
-      'Author' => author
+      'Power' => power_search
     }
 
     response = request.get(query: params)
@@ -35,6 +40,7 @@ class AmazonService
   end
 
   def search_for_author(author)
+    author = author.downcase
     books = search_for_books_by(author)
 
     if(books.nil?)

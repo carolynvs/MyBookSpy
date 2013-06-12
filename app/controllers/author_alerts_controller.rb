@@ -4,7 +4,7 @@ class AuthorAlertsController < ApplicationController
   # GET /author_alerts
   # GET /author_alerts.json
   def index
-    @author_alerts = AuthorAlert.where(:user_id => current_user.id)
+    @author_alerts = AuthorAlert.where(user_id: current_user.id)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,12 +15,12 @@ class AuthorAlertsController < ApplicationController
   # POST /author_alerts
   # POST /author_alerts.json
   def create
-    author = Author.where(:name => params[:author]).first_or_create()
-    @author_alert = AuthorAlert.new(:author_id => author.id, :user_id => current_user.id)
+    author = Author.where(name: params[:author]).first_or_create()
+    @author_alert = AuthorAlert.new(author_id: author.id, user_id: current_user.id)
 
     respond_to do |format|
       if @author_alert.save
-        format.html { redirect_to(:action => 'index', :notice => "You are now following #{author.name}") }
+        format.html { redirect_to(action: 'index', notice: "You are now following #{author.name}") }
         format.json { render json: @author_alert, status: :created, location: @author_alert }
       else
         format.html { render action: 'new' }
